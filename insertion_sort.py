@@ -6,15 +6,18 @@ array = [98, 3, 72, 56, 89, 12, 41, 67, 23, 1,
 
 def insertion_sort(array):
     n = len(array)
+
     for i in range (1,n):
-        selected = array[i]
+        selector = array[i]
         j = i -1
+
         for j in range (i-1,-1,-1):
-            if array[j] > selected:
+            if  array[j] > selector:
                 array[j+1] = array[j]
                 x=j
             else:
                 break
-            array[j] = selected
+            array[j] = selector
+
 insertion_sort(array)
 print(array)
