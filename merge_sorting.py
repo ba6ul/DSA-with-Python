@@ -1,4 +1,16 @@
 # I DON'T KNOW WHY IT'S NAMED MERGE SORT, WHEN IN ACTUALITY, IT'S DIVIDE SORT FIRST.
+
+# -------------------- Merge Sort Explanation --------------------
+# Merge Sort is a divide-and-conquer sorting algorithm that recursively splits the array 
+# into smaller halves, sorts them, and then merges them back together in sorted order.
+# This ensures an efficient and stable sorting mechanism.
+
+# 🔹 Time Complexity:
+# - Worst, Best & Average Case: O(n log n) → Consistent efficiency across all cases.
+# - Space Complexity: O(n) → Requires additional memory for merging sorted halves.
+
+# -------------------- Merge Sort Implementation --------------------
+
 array = [98, 3, 72, 56, 89, 12, 41, 67, 23, 1, 
          95, 83, 11, 47, 34, 28, 79, 64, 50, 9,
          102, 45, 38, 76, 88, 24, 92, 81, 15, 61, 
