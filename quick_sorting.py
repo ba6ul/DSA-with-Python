@@ -8,9 +8,12 @@ p = array[x//2] #Middle of the array
 
 print(p)
 n = len(array)
+small = []
+big = []
 for i in range (0,n):
     if array[i] < p:
-        print("small")
+        small.append(array[i])
     else:
-        print("Big")
+        big.append(array[i])
 
+print(small,big)
