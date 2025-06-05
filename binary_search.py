@@ -13,4 +13,5 @@ elif array[mid] > target:
     for j in range(0,mid):
         if array[j] == target:
             print(j)
-    
+
+#This code only spilts the array one time, but we needs to keep splitting it till we find the target.
