@@ -4,3 +4,7 @@ array = [98, 3, 72, 56, 89, 12, 41, 67, 23, 1,
          110, 5, 99, 31, 18, 70, 55, 42, 26, 8]
 
 target = 67
+for i in range(len(array)):
+    if array[i] == target:
+        print(i)
+    
